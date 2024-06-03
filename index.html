@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="function.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cavet">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        <title>Hehe</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="slides slide1">
+              <div class="message">
+                <span class="cube" style="--col: #c81313;">H</span>
+                <span class="cube" style="--col: #fefdfc;">A</span>
+                <span class="cube" style="--col: #c81313;">P</span>
+                <span class="cube" style="--col: #fefdfc;">P</span>
+                <span class="cube" style="--col: #c81313;">Y</span>
+              </div>
+              <div class="message">
+                <span class="cube" style="--col: #fefdfc;">6</span>
+                <span class="cube" style="--col: #c81313;">M</span>
+                <span class="cube" style="--col: #fefdfc;">O</span>
+                <span class="cube" style="--col: #c81313;">N</span>
+                <span class="cube" style="--col: #fefdfc;">T</span>
+                <span class="cube" style="--col: #c81313;">H</span>
+              </div>
+              <div class="message">
+                <span class="cube" style="--col: #fefdfc;">A</span>
+                <span class="cube" style="--col: #c81313;">N</span>
+                <span class="cube" style="--col: #fefdfc;">N</span>
+                <span class="cube" style="--col: #c81313;">I</span>
+                <span class="cube" style="--col: #fefdfc;">V</span>
+                <span class="cube" style="--col: #c81313;">E</span>
+                <span class="cube" style="--col: #fefdfc;">R</span>
+                <span class="cube" style="--col: #c81313;">S</span>
+                <span class="cube" style="--col: #fefdfc;">A</span>
+                <span class="cube" style="--col: #c81313;">R</span>
+                <span class="cube" style="--col: #fefdfc;">Y</span>
+                <span class="cube" style="--col: #c81313;">!</span>
+              </div>
+            </div>
+            <div class="slides slide2">
+                <div class="heart">
+                    
+                </div>
+            </div>
+        
+
+
+
+
+        <script>
+            anime.timeline({
+                loop: true
+            })
+            .add({
+                targets:'.message .cube',
+                scale: [2,1],
+                opacity: [0,1],
+                easing: 'easeOutExpo',
+                duration:950,
+                delay: (el, i) => 70*i
+            })
+            .add({
+                targets:'.message .cube',
+                scale: [1,0],
+                opacity: 0,
+                duration:950,
+                easing: 'easeInQuad',
+                delay: (el, i) => 70*i
+            })
+
+        </script>
+
+        <div class="slide3">
+            <div class="gallery">
+                <div class="imgbox"><h3>Phool</h3></div>
+                <div class="imgbox"><h3>Chocolate</h3></div>
+                <div class="imgbox"><h3>Kissy</h3></div>
+                <div class="imgbox"><h3>Oii Ti amooo!</h3></div>
+            </div>
+        </div>
+        <div class="slide4">
+            <div class="container2">  
+                <div class="anniversary">
+                  <div class="envelope"></div>
+                  <div class="front"></div>
+                  <div class="card">
+                  <div class="text">I Love You </br><br> Daddy!</div>
+                  <div class="dil"</div>
+                  </div>
+                  <div class="dils">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                    <div class="four"></div>
+                    <div class="five"></div>
+                  </div>
+                </div>
+                
+                <div class="shadow"></div>
+                </div>
+            
+    
+        </div>
+    </body>
+</html>
